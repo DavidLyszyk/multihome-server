@@ -3,7 +3,7 @@ var morgan = require(`morgan`);
 
 
 // Comment out during production
-var webpack = require('webpack');
+/*var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 var config = require('./webpack.dev');
 new WebpackDevServer(webpack(config), {
@@ -16,7 +16,7 @@ new WebpackDevServer(webpack(config), {
   }
 
   console.log('Listening at http://localhost:3001/');
-});
+});*/
 
 
 // Init express
